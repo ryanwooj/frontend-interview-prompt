@@ -12,10 +12,9 @@ The graphs underneath <strong> Site Visits </strong> and <strong> Revenue </stro
 Fork this project and clone it into your own repository. 
 
 Please use any front-end framework you are comfortable with. 
+We suggest using https://material.io and making use of the established components there.
 
-We suggest using https://material.io and making use of the established components there. However, you are free to use tools you are confortable with. 
-
-If you choose to start froms scratch, the font-type is: [Roboto](https://fonts.google.com/specimen/Roboto),
+If you choose to start from scratch the font-type is: [Roboto](https://fonts.google.com/specimen/Roboto),
 
 
 ## Things we are looking for 
@@ -30,7 +29,7 @@ Before moving onto these, please make sure you are happy with the overall look o
 
 #### Going above above and beyond. 
 - [ ] Make the filters to the graphs work. 
-- [ ] Use your best judgement and make the dashboard responsive and collapsible at 1200px breakpoint. 
+- [ ] Use your best judgement to make the dashboard responsive and collapsible at 1200px breakpoint. 
 
 ## Questions To Answer: 
 This is your chance to talk about the prompt! 
