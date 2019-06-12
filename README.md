@@ -12,10 +12,9 @@ The graphs underneath <strong> Site Visits </strong> and <strong> Revenue </stro
 Fork this project and clone it into your own repository. 
 
 Please use any front-end framework you are comfortable with. 
-We suggest using https://material.io and making use of the established components there.
+We suggest getting started with [material-ui](https://material-ui.com/) as they have many of the the components pre-built. If you are using a different framework, there are usually equivalent libraries for material design. 
 
 If you choose to start from scratch the font-type is: [Roboto](https://fonts.google.com/specimen/Roboto),
-
 
 ## Things we are looking for 
 - [ ] Are the margins and padding similar to the image? Were the colors close? 
@@ -25,11 +24,15 @@ If you choose to start from scratch the font-type is: [Roboto](https://fonts.goo
 
 ### Going above and beyond
 Before moving onto these, please make sure you are happy with the overall look of your dashboard already! 
+- [ ] Use your best judgement to make the dashboard responsive and collapsible at 1200px breakpoint. 
+      - The lefthand drawer should collapse at 1200px.  
+      - The "Totals" Section should collapse to a 2x2 block
+      - The two graph blocks should stack. 
+
 - [ ] If you have extra time, replace the placeholder images with dummy data and graphs from a visualization library like C3, D3, or React Vis. 
 
 ### Going above above and beyond. 
 - [ ] Make the filters to the graphs work. 
-- [ ] Use your best judgement to make the dashboard responsive and collapsible at 1200px breakpoint. 
 
 ## Questions To Answer: 
 This is your chance to talk about the prompt! Please provide these answers on your README. 
