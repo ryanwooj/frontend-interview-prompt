@@ -32,7 +32,7 @@ Before moving onto these, please make sure you are happy with the overall look o
 - [ ] Use your best judgement to make the dashboard responsive and collapsible at 1200px breakpoint. 
 
 ## Questions To Answer: 
-This is your chance to talk about the prompt! 
+This is your chance to talk about the prompt! Please provide these answers on your README. 
 - Please share your screen resolution, OS, browser version (best if you're using latest) you used to test in so we can look at it in: 
 - What part of the design did you get stuck on? What took the most time? 
 - What part of the design didn't make sense? Did you change anything?
