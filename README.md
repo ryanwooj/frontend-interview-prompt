@@ -1,5 +1,5 @@
 # frontend_interview_prompt
-This is the homework assignment given to prospective frontend engineers. This task should absolutely not take more than 4 hours of your time. This prompt itself should last 3.5 hours, with half an hour to fill out the remaining questions on this README. 
+This is the homework assignment given to prospective frontend engineers. This task should not take more than 4 hours of your time. This prompt itself should last 3.5 hours, with half an hour to fill out the remaining questions on this README. 
 
 ## Task
 Create a dashboard as close as possible to the following image: 
@@ -36,7 +36,7 @@ Before moving onto these, please make sure you are happy with the overall look o
 ## Questions To Answer: 
 This is your chance to talk about the prompt! Please provide these answers on your README. 
 - Please share your screen resolution, OS, browser version (best if you're using latest) you used to test in so we can look at it in: 
-- What part of the design did you get stuck on? What took the most time? 
+- What part of the design did you get stuck on? What took the most time? Similarly, what was the easiest part? 
 - What part of the design didn't make sense? Did you change anything?
 - If you had more time, what would you have liked to implement? 
 - What did you have to research or lookup while working on this? 
