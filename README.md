@@ -29,10 +29,9 @@ Before moving onto these, please make sure you are happy with the overall look o
       - The "Totals" Section should collapse to a 2x2 block
       - The two graph blocks should stack. 
 
-- [ ] If you have extra time, replace the placeholder images with dummy data and graphs from a visualization library like C3, D3, or React Vis. 
+- [ ] If you have extra time, replace the placeholder images with dummy data and graphs from a visualization library like C3, D3, or React Vis. The filters on the graph do not have to work, but please share below if you had more time what you would filter on. 
 
-### Going above above and beyond. 
-- [ ] Make the filters to the graphs work. 
+- [ ] Replace the `Totals` section with data from the following endpoint: http://www.mocky.io/v2/5d018fbd3100005400ab2968, use your best judgement how to handle this data. 
 
 ## Questions To Answer: 
 This is your chance to talk about the prompt! Please provide these answers on your README. 
