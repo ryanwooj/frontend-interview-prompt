@@ -19,18 +19,26 @@ If you choose to start froms scratch, the font-type is: [Roboto](https://fonts.g
 
 
 ## Things we are looking for 
-[ ] - Are the margins and padding similar to the image? Were the colors close? 
-[ ] - Were clickable items accounted for with the right elements? e.g. (was a button or dropdown element used where it should have been used)
-[ ] - How was the project set up? 
-[ ] - If deviations to the design were made, were they justified? 
+[ ]- Are the margins and padding similar to the image? Were the colors close? 
+[ ]- Were clickable items accounted for with the right elements? e.g. (was a button or dropdown element used where it should have been used)
+[ ]- How was the project set up? 
+[ ]- If deviations to the design were made, were they justified? 
 
 #### Going above and beyond
 Before moving onto these, please make sure you are happy with the overall look of your dashboard already! 
-[ ] - If you have extra time, replace the placeholder images with dummy data and graphs from a visualization library like C3, D3, or React Vis. 
+[ ]- If you have extra time, replace the placeholder images with dummy data and graphs from a visualization library like C3, D3, or React Vis. 
 
 #### Going above above and beyond. 
-[ ] - Make the filters to the graphs work. 
-[ ] - Use your best judgement and make the dashboard responsive and collapsible at 1200px breakpoint. 
+[ ]- Make the filters to the graphs work. 
+[ ]- Use your best judgement and make the dashboard responsive and collapsible at 1200px breakpoint. 
+
+## Questions To Answer: 
+This is your chance to talk about the prompt! 
+- Please share your screen resolution, OS, browser version (best if you're using latest) you used to test in so we can look at it in: 
+- What part of the design did you get stuck on? What took the most time? 
+- What part of the design didn't make sense? Did you change anything?
+- If you had more time, what would you have liked to implement? 
+- What did you have to research or lookup while working on this? 
 
 
 
