@@ -23,11 +23,11 @@ If you choose to start from scratch the font-type is: [Roboto](https://fonts.goo
 - [ ] How was the project set up? 
 - [ ] If deviations to the design were made, were they justified? 
 
-#### Going above and beyond
+### Going above and beyond
 Before moving onto these, please make sure you are happy with the overall look of your dashboard already! 
 - [ ] If you have extra time, replace the placeholder images with dummy data and graphs from a visualization library like C3, D3, or React Vis. 
 
-#### Going above above and beyond. 
+### Going above above and beyond. 
 - [ ] Make the filters to the graphs work. 
 - [ ] Use your best judgement to make the dashboard responsive and collapsible at 1200px breakpoint. 
 
