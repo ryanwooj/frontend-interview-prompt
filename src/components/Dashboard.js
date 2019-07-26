@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import axios from 'axios';
+import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
@@ -50,7 +51,17 @@ export default function Dashboard() {
   const [anchorEl, setAnchorEl] = useState(null);
 
   const [popEl, setEl] = useState(null);
+  const [newData, setData] = useState(null);
 
+  const newSetData = () => {
+    axios
+      .get('http://www.mocky.io/v2/5d018fbd3100005400ab2968')
+      .then(res => setData(res.data))
+      .catch(err => console.log(err));
+  };
+  newSetData();
+
+  console.log(newData);
   function handlePopover(event) {
     setEl(event.currentTarget);
   }
@@ -138,7 +149,7 @@ export default function Dashboard() {
                 alignItems='center'
                 className={classes.numberGrid}>
                 <Grid item>
-                  <Typography variant='h4'>597</Typography>
+                  <Typography variant='h4'>500</Typography>
                   <Typography variant='caption'>New Feedbacks</Typography>
                 </Grid>
                 <Grid item className={classes.dividerLeft}>

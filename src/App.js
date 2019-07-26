@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Dashboard from './components/Dashboard';
 import faker from 'faker';
@@ -106,7 +106,21 @@ const useStyles = makeStyles(theme => ({
 export default function App() {
   const classes = useStyles();
   const theme = useTheme();
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = useState(true);
+
+  const [bgColor, setColor] = useState({
+    backgroundColor: '#232323',
+    color: 'white',
+    opacity: '0.7'
+  });
+
+  function handleColor() {
+    setColor({
+      backgroundColor: 'white',
+      color: 'black',
+      opacity: '0.7'
+    });
+  }
 
   function handleDrawerOpen() {
     setOpen(true);
@@ -125,6 +139,14 @@ export default function App() {
   function handleClose() {
     setAnchorEl(null);
   }
+
+  function checkWidth() {
+    window.innerWidth < 1200 && handleDrawerClose();
+  }
+
+  window.addEventListener('resize', function(event) {
+    checkWidth();
+  });
 
   return (
     <div className={classes.root}>
@@ -232,20 +254,34 @@ export default function App() {
           </div>
           <Divider />
           <List className={classes.list}>
-            {['Calendar', 'Documentation', 'Dashboard'].map((text, index) => (
-              <ListItem button key={text}>
-                <ListItemIcon>
-                  {index === 0 ? (
-                    <Icon className={classes.list}>date_range</Icon>
-                  ) : index === 1 ? (
-                    <Icon className={classes.list}>home</Icon>
-                  ) : (
-                    <Icon className={classes.list}>description</Icon>
-                  )}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            ))}
+            <ListItem button key='Calendar' style={bgColor}>
+              <ListItemIcon>
+                <Icon className={classes.list}>date_range</Icon>
+              </ListItemIcon>
+              <ListItemText primary='Calendar' />
+            </ListItem>
+            <ListItem button key='Documentation' style={bgColor}>
+              <ListItemIcon>
+                <Icon className={classes.list}>home</Icon>
+              </ListItemIcon>
+              <ListItemText primary='Documentation' />
+            </ListItem>
+            <ListItem
+              button
+              key='Dashboard'
+              style={{
+                backgroundColor: 'white',
+                color: 'black'
+              }}>
+              <ListItemIcon>
+                <Icon
+                  className={classes.list}
+                  style={{ color: 'black', opacity: '0.7' }}>
+                  description
+                </Icon>
+              </ListItemIcon>
+              <ListItemText primary='Dashboard' />
+            </ListItem>
           </List>
           <Divider />
           <List className={classes.list}>
@@ -260,7 +296,12 @@ export default function App() {
               'Plugins',
               'Pages'
             ].map((text, index) => (
-              <ListItem button component={Link} to={`/${index}`} key={text}>
+              <ListItem
+                button
+                component={Link}
+                to={`/${index}`}
+                key={text}
+                onClick={handleColor}>
                 <ListItemIcon>
                   {index === 0 ? (
                     <Icon className={classes.list}>whatshot</Icon>
